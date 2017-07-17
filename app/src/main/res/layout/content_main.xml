@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoCad"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pager.homemade.com.br.pager.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:id="@+id/containerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:background="@color/fundoVerde">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray">
+
+        <Button
+            android:id="@+id/btnLogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/texto_botao" />
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btnLogar"
+            android:layout_toRightOf="@+id/btnLogar"
+            android:text="@string/btnCadastrar" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtBitFaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:text="Bit"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/tamTextoBitFaz" />
+
+</RelativeLayout>

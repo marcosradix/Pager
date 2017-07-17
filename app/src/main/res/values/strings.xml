@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pager</string>
+    <string name="action_settings">Configurações</string>
+    <string name="texto_botao">Entrar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginUsuario">Login de usuário</string>
+    <string name="recuperarSenha">Esqueci minha senha</string>
+    <string name="btnCad">Cadastrar</string>
+    <string name="cadUser">Cadastro de usuário</string>
+</resources>
